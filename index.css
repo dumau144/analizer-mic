@@ -1,0 +1,5 @@
+canvas {
+  background-color: white;
+  box-shadow: -4px -4px 25px 2px #0000004f;
+  transform: scaleY(-1);
+}
