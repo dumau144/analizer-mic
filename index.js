@@ -39,6 +39,7 @@ const gotStream = (stream) => {
 const buttonStart = document.querySelector(".start");
 
 buttonStart.onclick = () => {
+  buttonStart.disabled = true;
   navigator.getUserMedia(
     {audio: true}, gotStream, (error) => console.error(error));
 };
